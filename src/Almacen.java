@@ -1,10 +1,10 @@
 
 public class Almacen {
-	private int ingredientes = 2;
+	private int pizzasRestantes = 2;
 
 	public void damePizza() {
-		if (ingredientes > 0) {
-			ingredientes--;
+		if (pizzasRestantes > 0) {
+			pizzasRestantes--;
 			System.out.println("Pizza para tí");
 		} else {
 			AlarmaPizza noStock = new AlarmaPizza();

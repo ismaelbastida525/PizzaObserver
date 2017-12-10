@@ -7,11 +7,10 @@ public class Main {
 		alarmaPizza.attach(new Hawaiana());
 		alarmaPizza.attach(new Iberica());
 		alarmaPizza.attach(new CuatroQuesos());
-		
+
 		Almacen almacen = new Almacen();
 		almacen.damePizza();
 		almacen.damePizza();
 		almacen.damePizza();
 	}
-
 }

@@ -17,9 +17,9 @@ public class AlarmaMozzarella implements ISubjet<IWithOutMozzarella> {
 
 	@Override
 	public void notifyObservers() {
-	for (IWithOutMozzarella quesitos : observadores) {
-		quesitos.actualizarMozzarella();
-	}
+		for (IWithOutMozzarella quesitos : observadores) {
+			quesitos.actualizarMozzarella();
+		}
 
 	}
 
